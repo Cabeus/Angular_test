@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/lib/angular.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<section ng-controller="first">
+			<input type="" name="" id="" value=""  ng-model="a"/>
+			{{a}}
+		</section>
+		
+		<script type="text/javascript">
+			angular.module("app",[])
+				.controller("first",function($scope){
+					$scope.a = "abc"
+				})
+		</script>
+		
+	</body>
+</html>
