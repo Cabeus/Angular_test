@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="App">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/lib/angular.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="" ng-controller="frist">
+			{{a}}{{b}}
+		</div>
+		
+		<script type="text/javascript">
+			angular.module("App",[])
+				.controller("frist",function($scope){
+					$scope.a = "abc";
+					$scope.b = "cde";
+				})
+		</script>
+		
+	</body>
+</html>
